@@ -3,6 +3,6 @@ def square_array(array)
   sq_arr = []
   array.each do | i |
     sq_arr << array[i] ** 2
-    return sq_arr
+    sq_arr
   end
 end
